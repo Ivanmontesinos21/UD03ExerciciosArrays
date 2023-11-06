@@ -13,14 +13,11 @@ public class Ejercicio2 {
     }
     public static void rellenar(int size,int[]array,int lower,int upper){
         for (int i=0;i<size;i++)
-            array[i]=random(size,lower,upper);
+            array[i]=random(0,9);
     }
-    public static int random(int num,int lower,int upper){
-        num= (int) (Math.random() * 10);
-        if (lower<0) {
-            System.out.println("Introduce un numero mayor a 0");
-        }else if (upper>9)
-            System.out.println("Introudce un numero menor o igual a 9");
+    public static int random(int lower,int upper){
+      int  num= (int) (Math.random()+ (upper-lower)+ lower);
+
        return num;
     }
     public static int suma(int[] array){
