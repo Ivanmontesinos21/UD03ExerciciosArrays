@@ -1,21 +1,22 @@
 package UD03EjerciciosArrays;
 
-public class Ejercicio8 {
+public class Exercise8 {
     public static void main(String[] args) {
-        int[] array = new int[5];
-        rellenar(array);
+        int[] array = new int[10];
+        fill(array);
 
         System.out.println(contarpos(array));
         System.out.println(contarneg(array));
-        System.out.println(mediapos(array));
-        System.out.println(medianeg(array));
+        System.out.println(averagePos(array));
+        System.out.println(averageNeg(array));
 
 
     }
 
-    public static void rellenar(int[] array) {
+    public static void fill(int[] array) {
         for (int i = 0; i < array.length; i++)
-            array[i] = tool.obtenerNumero("Introduce los numeros " + (i+1));
+            array[i] = tool.getInteger("Introduce the numbers in the position : " + (i + 1));
+
     }
 
     public static int contarpos(int[]array){
@@ -35,19 +36,14 @@ public class Ejercicio8 {
         return contarneg;
 
     }
-    public static int mediapos(int[]array){
-        int mediapos=0;
-        for (int i=0;i<array.length;i++)
-            if (array[i]>=0)
-                mediapos++;
-        return mediapos;
-    }
-    public static int medianeg(int[]array){
-        int medianeg=0;
-        for (int i=0;i<array.length;i++)
-            if (array[i]<0)
-                medianeg++;
-        return medianeg;
+    public static double averagePos(int[]array){
+        double averagePos=(double)contarpos(array)/array.length;
+        return averagePos;
+         }
+
+    public static double averageNeg(int[]array){
+        double averageNeg=(double)contarneg(array)/array.length;
+        return averageNeg;
     }
 }
 

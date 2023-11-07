@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="eb761cd0-68dd-4d59-bb1f-ad5d83a5d1ad" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Ejercicio4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Ejercicio5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Ejercicio6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Ejercicio9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Exercise3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Ejercicio7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Ejercicio7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Ejercicio8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Ejercicio8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Exercise1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Ejercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Exercise2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Ejercicio3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Ejercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Exercise4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Exercise5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Ejercicio6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Exercise6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Ejercicio7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Exercise7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Ejercicio8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Exercise8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Ejercicio9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UD03EjerciciosArrays/Exercise9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UD03EjerciciosArrays/tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UD03EjerciciosArrays/tool.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +32,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2XXN22cKIU44SSG9Z9wVfMrbitu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -55,7 +65,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699285201519</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1699291931909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699291931909</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit">
+      <created>1699292277557</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699292277557</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,5 +96,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/UD03EjerciciosArrays/Exercise3.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

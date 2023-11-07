@@ -7,9 +7,14 @@ public class tool {
 
 
     }
-    public static int obtenerNumero(String msg) {
-        Scanner sc = new Scanner(System.in);
+    public static int getInteger(String msg) {
+        Scanner sc=new Scanner(System.in);
         System.out.println(msg);
         return sc.nextInt();
+    }
+    public static float getfloat(String msg) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println(msg);
+        return sc.nextFloat();
     }
 }
