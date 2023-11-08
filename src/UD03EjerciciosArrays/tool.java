@@ -17,4 +17,10 @@ public class tool {
         System.out.println(msg);
         return sc.nextFloat();
     }
+    public static double getDouble(String msg){
+        Scanner sc=new Scanner(System.in);
+        System.out.print(msg);
+        return sc.nextDouble();
+
+    }
 }

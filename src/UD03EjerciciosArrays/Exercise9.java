@@ -4,42 +4,66 @@ import java.util.Scanner;
 
 public class Exercise9 {
     public static void main(String[] args) {
-        int[] height;
-        int[] N;
-        fillN(N);
-        fillHeight(height);
+        Scanner scanner = new Scanner(System.in);
 
 
+        int N = tool.getInteger("Enter the number of people (N):");
+
+        if (N <= 0) {
+            System.out.println("Please enter a positive integer for N.");
+            return;
+        }
+
+        double[] heights = new double[N];
+
+        // Read the heights of N people
+        fill(heights);
+
+        // Calculate the average height
+        double averageHeight = calculateAverageHeight(heights);
+
+        System.out.println("Average height: " + averageHeight + " cm");
+
+        // Count people above and below average
+        int aboveAverageCount = countPeopleAboveAverage(heights, averageHeight);
+        int belowAverageCount = countPeopleBelowAverage(heights, averageHeight);
+
+        System.out.println("People above average height: " + aboveAverageCount);
+        System.out.println("People below average height: " + belowAverageCount);
+    }
+    public static void fill(double[]heights){
+        Scanner sc=new Scanner(System.in);
+        for (int i = 0; i < heights.length; i++) {
+            System.out.print("Enter the height of person " + (i + 1) + " (in centimeters): ");
+            heights[i] = sc.nextDouble();
+        }
     }
 
-    public static double averageHeight(int[] height) {
-        double average = 0;
-        for (int i = 0; i < height.length; i++)
-            average += height[i];
-        average = average / height.length;
-        return average;
-
-
+    public static double calculateAverageHeight(double[] heights) {
+        double sum = 0.0;
+        for (double height : heights) {
+            sum += height;
+        }
+        return sum / heights.length;
     }
 
-    public static void fillN(int[] N) {
-        for (int i = 0; i < N.length; i++)
-            N[i] = tool.getInteger("Introduce the number of people");
+    public static int countPeopleAboveAverage(double[] heights, double averageHeight) {
+        int count = 0;
+        for (double height : heights) {
+            if (height > averageHeight) {
+                count++;
+            }
+        }
+        return count;
     }
 
-
-    public static void fillHeight(int[]height){
-        for (int i=0;i<height.length;i++)
-            height[i]= (int) tool.getfloat("Introduce the height");
-
+    public static int countPeopleBelowAverage(double[] heights, double averageHeight) {
+        int count = 0;
+        for (double height : heights) {
+            if (height < averageHeight) {
+                count++;
+            }
+        }
+        return count;
     }
-
-
-
-
-    /*
-    Create Java program to read the height of N people and calculate the average height.
-     Calculate how many people have a height above the average and how many have a height below the average.
-     The value of N is requested by keyboard and must be a positive integer.
-     */
 }
